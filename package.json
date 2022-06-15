@@ -1,0 +1,18 @@
+{
+  "name": "scrappy_amazon",
+  "version": "1.0.0",
+  "description": "This is a web scrapper for the e-commerce website AMAZON",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Tirtharaj Sen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
